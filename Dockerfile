@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y \
  && npm install -g prettier@3.4.2 \
  && rm -rf /var/lib/apt/lists/*
 
+RUN git config --global user.email "21f3003062@ds.study.iitm.ac.in" \
+ && git config --global user.name "Aditya-Naidu"
+
+
 # 3) Set a working directory for your app code
 WORKDIR /app
 
