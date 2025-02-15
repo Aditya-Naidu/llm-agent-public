@@ -1,0 +1,11 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+python-dotenv==1.0.0
+requests==2.31.0
+Pillow==10.0.0
+faker==18.9.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+sqlalchemy==2.0.20
+sqlite-utils==3.33
+mdformat
